@@ -1,0 +1,64 @@
+.frontend {
+
+  margin-top: 10%;
+  //background-image: url('pics/bird.jpg');//'../pics/bird.jpg';
+
+
+  @heading_container_color: #5c8240;
+
+  .heading-container {
+
+    .head {
+      padding: 15px;
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+      border: solid 1px #324d1f;
+      background-color: #324d1f;
+      color: #ffffff;
+      font-weight: bold;
+    }
+    .content {
+      padding: 15px;
+      border-bottom-left-radius: 5px;
+      border-bottom-right-radius: 5px;
+      border: solid 1px @heading_container_color;
+      background-color: @heading_container_color;
+      color: #ffffff;
+    }
+  }
+
+  .front-form {
+    border-radius: 5px;
+    border: solid 1px #eeeeee;
+    padding: 15px;
+    background-color: #eeeeee;
+    height: 380px;
+
+    label {
+      color: #8f8f90;
+    }
+
+    .help-block {
+      min-height: 12px;
+      color: red;
+    }
+
+    .error {
+      border: solid 1px red;
+    }
+
+    @bg_color: #dfbb02;
+    .submit {
+      color: #ffffff;
+      background-color: @bg_color;
+      border: solid 1px darken(@bg_color,15%);
+      cursor: pointer;
+    }
+  }
+}
+
+.backend {
+  .search-row {
+    margin-bottom: 15px;
+  }
+}

@@ -1,0 +1,47 @@
+.frontend {
+  margin-top: 10%;
+}
+.frontend .heading-container .head {
+  padding: 15px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border: solid 1px #324d1f;
+  background-color: #324d1f;
+  color: #ffffff;
+  font-weight: bold;
+}
+.frontend .heading-container .content {
+  padding: 15px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border: solid 1px #5c8240;
+  background-color: #5c8240;
+  color: #ffffff;
+}
+.frontend .front-form {
+  border-radius: 5px;
+  border: solid 1px #eeeeee;
+  padding: 15px;
+  background-color: #eeeeee;
+  height: 380px;
+}
+.frontend .front-form label {
+  color: #8f8f90;
+}
+.frontend .front-form .help-block {
+  min-height: 12px;
+  color: red;
+}
+.frontend .front-form .error {
+  border: solid 1px red;
+}
+.frontend .front-form .submit {
+  color: #ffffff;
+  background-color: #dfbb02;
+  border: solid 1px #937b01;
+  cursor: pointer;
+}
+.backend .search-row {
+  margin-bottom: 15px;
+}
+/*# sourceMappingURL=styles.css.map */
